@@ -30,7 +30,7 @@ namespace FibonacciNumbers
 			{
 				Console.Write($" {fib}");
 			}
-			Console.Write(" }");
+			Console.Write(" }\n");
 
 
 
