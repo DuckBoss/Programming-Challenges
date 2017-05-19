@@ -1,6 +1,6 @@
 using System;
 
-namespace EvenFibonacciNumbers
+namespace FibonacciNumbers
 {
 	class MainClass
 	{
