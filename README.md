@@ -1,2 +1,2 @@
 # Programming-Challenges
-A comprehensive list of solved programming challenges that are done for practice.
+A comprehensive list of solved practice programming challenges.
