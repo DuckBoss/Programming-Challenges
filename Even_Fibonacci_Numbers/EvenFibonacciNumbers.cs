@@ -28,12 +28,8 @@ namespace EvenFibonacciNumbers
 
 			Console.Write("Result - {");
 			for (int i = 0; i < fullList.Length; i++)
-			{
 				if (fullList[i] % 2 == 0)
-				{
 					Console.Write($" {fullList[i]}");
-				}
-			}
 			Console.Write(" }");
 
 			Console.WriteLine();
