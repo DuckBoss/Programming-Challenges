@@ -7,7 +7,7 @@ namespace SumOfMultiples
 		public static void Main(string[] args)
 		{
 			
-			if (args.Length <= 1)
+			if (args.Length < 2)
 			{
 				Console.WriteLine("This program requires 1 integer input and 1 multiple input!\n");
 				Console.WriteLine("NOTE: This program can handle multiple 'Multiple integer' inputs...\n");
