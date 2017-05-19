@@ -14,12 +14,19 @@ namespace Subset_Sum
 			}
 
 			int[] inputtedData = new int[args.Length];
+			Console.Write("Given: {");
 			for (int i = 0; i < args.Length; i++)
+			{
 				inputtedData[i] = Convert.ToInt32(args[i]);
+				Console.Write($" {inputtedData[i]}");
+			}
+			Console.Write(" }");
+			Console.WriteLine();
 
 			bool isFalse = true;
 			int compareVal = int.MinValue;
 
+			Console.Write("Two numbers in this array of integers equals to zero - ");
 			if (inputtedData.Length > 0)
 				for (int g = 0; g < inputtedData.Length; g++)
 					if (isFalse)
@@ -30,7 +37,7 @@ namespace Subset_Sum
 
 							if (compareVal == -inputtedData[i])
 							{
-								Console.WriteLine("TRUE");
+								Console.Write("TRUE\n");
 								isFalse = false;
 								break;
 							}
@@ -38,13 +45,14 @@ namespace Subset_Sum
 			
 
 			if (isFalse)
-				Console.WriteLine("FALSE");
+				Console.Write("FALSE\n");
 
 
 
 
-			Console.WriteLine("\n");
+			Console.WriteLine();
 			Console.ReadKey();
 		}
 	}
 }
+
