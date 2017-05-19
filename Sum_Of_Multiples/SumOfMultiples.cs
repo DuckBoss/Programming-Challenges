@@ -35,7 +35,7 @@ namespace SumOfMultiples
 				totalSum += sum;
 			}
 
-			Console.WriteLine("\n");
+			Console.WriteLine();
 			Console.Write("Multiples Of - ");
 			foreach (int multiple in givenMultiples)
 			{
@@ -47,7 +47,7 @@ namespace SumOfMultiples
 
 
 
-			Console.WriteLine("\n");
+			Console.WriteLine();
 			Console.ReadKey();
 		}
 	}
