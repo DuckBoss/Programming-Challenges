@@ -27,9 +27,7 @@ namespace FibonacciNumbers
 
 			Console.Write("Result - {");
 			foreach (int fib in fullList)
-			{
 				Console.Write($" {fib}");
-			}
 			Console.Write(" }\n");
 
 
