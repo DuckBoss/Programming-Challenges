@@ -3,7 +3,7 @@ public class SelfPowers {
 
 	public static void main(String[] args) {
 		
-		if(args.length < 1) {
+		if(args.length != 1) {
 			System.out.println("This program requires 1 integer input!");
 			System.exit(0);
 		}
