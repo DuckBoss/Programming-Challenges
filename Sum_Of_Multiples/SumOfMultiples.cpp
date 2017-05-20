@@ -38,6 +38,6 @@ int main(int argc, char* argv[]) {
 	cout << "Sum Of Multiples - " << totalSum << endl;
 	
 
-
+	system("pause");
 	return 0;
 }
