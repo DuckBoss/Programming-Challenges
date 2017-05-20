@@ -19,5 +19,6 @@ int main(int argc, char* argv[]) {
 	}
 	cout << "Total Sum - " << totalSum <<endl;
 
+	system("pause");
 	return 0;
 }
