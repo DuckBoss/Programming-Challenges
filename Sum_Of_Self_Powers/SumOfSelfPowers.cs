@@ -6,7 +6,7 @@ namespace SumOfSelfPowers
 	{
 		public static void Main(string[] args)
 		{
-			if (args.Length < 1)
+			if (args.Length != 1)
 			{
 				Console.WriteLine("This program requires 1 integer input");
 				Environment.Exit(0);
