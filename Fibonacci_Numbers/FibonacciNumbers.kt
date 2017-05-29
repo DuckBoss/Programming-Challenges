@@ -25,8 +25,7 @@ fun main(args: Array<String>) {
 
     print("Result - {")
     for(fib in fullList) {
-        print(" ")
-        print(fib)
+        print(" %d".format(fib))
     }
     print(" }\n")
 
