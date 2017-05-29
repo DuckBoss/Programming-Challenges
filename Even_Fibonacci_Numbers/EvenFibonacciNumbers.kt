@@ -26,8 +26,7 @@ fun main(args: Array<String>) {
     print("Result - {")
     for(i in 0..fullList.size-1) {
         if(fullList[i] % 2 == 0) {
-            print(" ")
-            print(fullList[i])
+            print(" %d".format(fullList[i]))
         }
     }
     print(" }\n")
